@@ -1,0 +1,38 @@
+{
+  "analysis_window": {
+    "start": "2025-03-01",
+    "end": "2026-02-28",
+    "months": 12
+  },
+  "overall_summary": [
+    {
+      "member_casual": "casual",
+      "rides": 2008741,
+      "ride_minutes": 38429863.535000004,
+      "avg_ride_minutes": 19.13,
+      "total_ride_hours": 640497.73,
+      "max_ride_minutes": 1439.98,
+      "most_common_day_of_week": "Saturday"
+    },
+    {
+      "member_casual": "member",
+      "rides": 3587101,
+      "ride_minutes": 43093850.163100004,
+      "avg_ride_minutes": 12.01,
+      "total_ride_hours": 718230.84,
+      "max_ride_minutes": 1439.9,
+      "most_common_day_of_week": "Thursday"
+    }
+  ],
+  "quality_totals": {
+    "rows_read": 5601662,
+    "missing_datetime": 0,
+    "invalid_member_type": 0,
+    "out_of_scope_dates": 36,
+    "nonpositive_duration": 29,
+    "duration_over_24h": 5755,
+    "missing_start_station": 1192506,
+    "missing_end_station": 1248788,
+    "valid_rows": 5595842
+  }
+}
