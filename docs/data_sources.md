@@ -1,11 +1,6 @@
 # Data Sources
 
-## 1. Case study instructions
-
-- Arquivo local: `Case Study 1_ How does a bike-share navigate speedy success.pdf`
-- Papel no projeto: definiu a pergunta de negócio, os entregáveis e o fluxo Ask/Prepare/Process/Analyze/Share/Act.
-
-## 2. Official trip data
+## 1. Official trip data
 
 - Página oficial: https://divvybikes.com/system-data
 - Repositório público dos arquivos: https://divvy-tripdata.s3.amazonaws.com
