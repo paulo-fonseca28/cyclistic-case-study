@@ -31,8 +31,8 @@ Source:
 
 Tracking status:
 
-- `data/raw/` is ignored by Git because the ZIP files are large.
-- Recreate the raw files with `python scripts/download_divvy_data.py`.
+- `data/raw/` contains the original monthly ZIP files used before processing.
+- Recreate or refresh the raw files with `python scripts/download_divvy_data.py` if any source ZIP is missing.
 
 ## Processed Data
 

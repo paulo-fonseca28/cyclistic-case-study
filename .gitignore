@@ -213,7 +213,6 @@ marimo/_lsp/
 __marimo__/
 
 # Project data and generated local artifacts
-data/raw/
 *.aux
 *.bbl
 *.bcf

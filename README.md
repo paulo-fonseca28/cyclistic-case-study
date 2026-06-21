@@ -21,7 +21,7 @@ The analysis supports decisions about campaign timing, location targeting, and m
 - Official data page: https://divvybikes.com/system-data
 - Data license: https://divvybikes.com/data-license-agreement
 
-The raw ZIP files are not intended to be committed because they are large. Use `scripts/download_divvy_data.py` to recreate the local raw data folder.
+The raw ZIP files are kept in `data/raw/` so the pre-processing source data is available with the project. Use `scripts/download_divvy_data.py` to recreate or refresh the local raw data folder if any source ZIP is missing.
 
 ## Tools
 
@@ -130,7 +130,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Download the raw Divvy data:
+Refresh the raw Divvy data if needed:
 
 ```bash
 python scripts/download_divvy_data.py
