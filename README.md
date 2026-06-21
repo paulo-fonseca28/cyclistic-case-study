@@ -61,7 +61,7 @@ The raw ZIP files are kept in `data/raw/` so the pre-processing source data is a
 │   ├── bikeshare_analysis.py
 │   ├── download_divvy_data.py
 │   └── validate_data.py
-├── main.tex
+├── analises_e_resultados.pdf
 ├── requirements.txt
 └── .gitignore
 ```
