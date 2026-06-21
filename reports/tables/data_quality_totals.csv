@@ -1,0 +1,13 @@
+metric,value
+month,2430278
+rows_read,5601662
+valid_rows,5595842
+rows_removed,5820
+duplicate_ride_id,0
+missing_datetime,0
+invalid_member_type,0
+out_of_scope_dates,36
+nonpositive_duration,29
+duration_over_24h,5755
+missing_start_station,1192506
+missing_end_station,1248788

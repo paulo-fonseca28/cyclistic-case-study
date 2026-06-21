@@ -4,6 +4,39 @@
     "end": "2026-02-28",
     "months": 12
   },
+  "source_files": [
+    "202503-divvy-tripdata.zip",
+    "202504-divvy-tripdata.zip",
+    "202505-divvy-tripdata.zip",
+    "202506-divvy-tripdata.zip",
+    "202507-divvy-tripdata.zip",
+    "202508-divvy-tripdata.zip",
+    "202509-divvy-tripdata.zip",
+    "202510-divvy-tripdata.zip",
+    "202511-divvy-tripdata.zip",
+    "202512-divvy-tripdata.zip",
+    "202601-divvy-tripdata.zip",
+    "202602-divvy-tripdata.zip"
+  ],
+  "created_columns": [
+    "ride_length_min",
+    "month",
+    "day_of_week_num",
+    "day_of_week",
+    "start_hour",
+    "is_weekend",
+    "is_commute_window",
+    "is_round_trip"
+  ],
+  "cleaning_rules": [
+    "Drop duplicate ride_id records after the first occurrence.",
+    "Drop records with missing start or end timestamps.",
+    "Keep only member_casual values of casual or member.",
+    "Keep rides started from 2025-03-01 through 2026-02-28.",
+    "Drop rides with nonpositive duration.",
+    "Drop rides longer than 24 hours.",
+    "Preserve records with missing station names for time-based analysis; exclude blank stations from station rankings."
+  ],
   "overall_summary": [
     {
       "member_casual": "casual",
@@ -26,13 +59,15 @@
   ],
   "quality_totals": {
     "rows_read": 5601662,
+    "valid_rows": 5595842,
+    "rows_removed": 5820,
+    "duplicate_ride_id": 0,
     "missing_datetime": 0,
     "invalid_member_type": 0,
     "out_of_scope_dates": 36,
     "nonpositive_duration": 29,
     "duration_over_24h": 5755,
     "missing_start_station": 1192506,
-    "missing_end_station": 1248788,
-    "valid_rows": 5595842
+    "missing_end_station": 1248788
   }
 }

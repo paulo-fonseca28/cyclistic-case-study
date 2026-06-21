@@ -203,16 +203,25 @@ cython_debug/
 .cursor/
 
 # Gemini and AI Agents
-AGENTS.md
 GEMINI.md
 .gemini/
-.codex
+.codex/
 
 # Marimo
 marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Folders
-data/raw
-docs/
+# Project data and generated local artifacts
+data/raw/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
